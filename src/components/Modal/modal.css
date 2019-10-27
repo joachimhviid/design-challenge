@@ -1,0 +1,14 @@
+.modal-wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 5px 10px #202020;
+    border-top: 5px solid #202020;
+    border-left: 1px solid #202020;
+    padding: 1em 30px 1em 30px;
+}
+
+.modal-header {
+    margin-top: 0px;
+}

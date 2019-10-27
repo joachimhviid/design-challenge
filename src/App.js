@@ -1,4 +1,5 @@
 import React from 'react';
+import './main.css';
 import Modal from './components/Modal/modal';
 
 class App extends React.Component {
@@ -15,11 +16,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <p>Hello World</p>
+        <h1>Hello World</h1>
         <button onClick={x => {
           this.showModal(x);
         }}>Show yourself Modal!</button>
-        <Modal onClose={this.showModal} show={this.state.show}>Modal message</Modal>
+        <Modal onClose={this.showModal} show={this.state.show} title="Test modal">Modal message</Modal>
       </div>
     );
   }

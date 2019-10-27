@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './modal.css';
 
 export default class Modal extends Component {
     onClose = x => {
@@ -11,7 +12,8 @@ export default class Modal extends Component {
         }
 
         return (
-            <div>
+            <div className="modal-wrapper">
+                <h2 className="modal-header">{this.props.title}</h2>
                 <div>{this.props.children}</div>
                 <div>
                     <button onClick={this.onClose}>Close</button>
