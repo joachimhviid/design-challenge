@@ -11,15 +11,137 @@ h2 {
     margin-top: 0;
 }
 
+button {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 1000px;
     margin: auto;
     align-items: center;
+}
+
+.small-text {
+    font-size: .8em;
+    color: #545454;
 }
 
 .orange {
     color: #ff8b43;
 }
+
+.button-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.toggle-button {
+    cursor: pointer;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    background-color: #ff8b43;
+    margin-bottom: 30px;
+}
+
+.toggle-button:hover {
+    box-shadow: inset 600px 600px rgba(32, 32, 32, .5);
+    transition: .2s;
+}
+
+#dirt {
+    background-image: url('./assets/plant-dirt.jpg');
+}
+
+#bonsai {
+    background-image: url('./assets/bonsai.jpg');
+}
+
+#bird {
+    background-image: url('./assets/bird-flower.jpg');
+}
+
+#glass {
+    background-image: url('./assets/glass-eco.jpg');
+}
+
+#bulb {
+    background-image: url('./assets/lightbulb-plant.jpg');
+}
+
+#potted {
+    background-image: url('./assets/potted-plant.jpg');
+}
+@media (min-width: 1px) {
+    .button-container {
+        max-width: 254px;
+    }
+    .toggle-button {
+        width: 100%;
+        padding-top: 45%;
+        padding-bottom: 45%;
+    }
+}
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+    .button-container {
+        max-width: 540px;
+    }
+    .toggle-button {
+        width: 50%;
+        padding-top: 21%;
+        padding-bottom: 21%;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .button-container {
+        max-width: 720px;
+    }
+    .toggle-button {
+        width: 50%;
+        padding-top: 21%;
+        padding-bottom: 21%;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .button-container {
+        max-width: 960px;
+    }
+    .toggle-button {
+        width: 33%;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    .button-container {
+        max-width: 1140px;
+    }
+    .toggle-button {
+        width: 33%;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+  }
