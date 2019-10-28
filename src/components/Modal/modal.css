@@ -12,6 +12,10 @@
     margin-top: 0px;
 }
 
+.modal-wrapper img {
+    max-width: 600px;
+}
+
 .modal-close {
     position: absolute;
     right: 30px;
