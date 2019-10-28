@@ -6,3 +6,20 @@ body {
 h1 {
     color: #202020;
 }
+
+h2 {
+    margin-top: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+}
+
+.orange {
+    color: #ff8b43;
+}
