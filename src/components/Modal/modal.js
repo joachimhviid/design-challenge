@@ -13,11 +13,13 @@ export default class Modal extends Component {
         }
 
         return (
-            <div className="modal-wrapper">
-                <h2 className="modal-header">{this.props.title}</h2>
-                <div>{this.props.children}</div>
-                <div>
-                    <button className="modal-close" onClick={this.onClose}></button>
+            <div className="modal-backdrop">
+                <div className="modal-wrapper">
+                    <h2 className="modal-header">{this.props.title}</h2>
+                    <div>{this.props.children}</div>
+                    <div>
+                        <button className="modal-close" onClick={this.onClose}></button>
+                    </div>
                 </div>
             </div>
         )
