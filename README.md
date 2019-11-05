@@ -1,3 +1,10 @@
+Dette repository har react sourcecode til min løsning af Morningtrain design challenge Case #1. 
+For at køre koden kræves det at man har de dependencies fra Create React App og kører scriptet 'npm start'. 
+For at gøre det lettere er min løsning online på: http://morningtrain.whiiite.dk/
+
+
+----------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
